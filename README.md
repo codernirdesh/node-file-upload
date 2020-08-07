@@ -1,5 +1,5 @@
 # NodeJS File Upload
-*******
+***
 #### Getting Started
 * Create a folder named **` uploads `** in the root directory
 * Run `node index.js` or, `node index`
