@@ -13,7 +13,7 @@ app.post("/", (req, res) => {
     var filename = file.name;
     console.log(filename);
     file.mv("./uploads/" + filename, (err) => {
-      if (err) {
+        if (err) {
         res.send(err);
       } else {
         res.send("File Uploaded!");
