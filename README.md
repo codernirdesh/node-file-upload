@@ -2,7 +2,7 @@
 ***
 #### Getting Started
 * Create a folder named **` uploads `** in the root directory *(If there isn't any.)*
-#####To run this Piece of software follow this instruction
+##### To run this Piece of software follow this instruction
 * Run `npm install` *It will install '`express` & `express-fileupload`'*
 * Run `npm run` or, `node index.js` or, `node index`
 * open [http://localhost:3000](http://localhost:3000)
