@@ -13,7 +13,7 @@ app.post("/", (req, res) => {
     var filename = file.name;
     console.log(filename);
     file.mv("./uploads/" + filename, (err) => {
-        if (err) {
+      if (err) {
         res.send(err);
       } else {
         res.send("File Uploaded!");
@@ -21,5 +21,9 @@ app.post("/", (req, res) => {
     });
   }
 });
-
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(3000, () => {
+  console.log(`
+  Listening on ${port}\n visit http://localhost:${port}
+  `);
+});
